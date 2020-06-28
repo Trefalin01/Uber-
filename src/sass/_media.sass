@@ -1,0 +1,368 @@
+@media  ( max-width: 1200px )
+    .menu
+        &_item
+            padding-right: 22px
+
+    .mobileRow_1
+        padding: 0 20px 0 20px
+        .mobileRow_reliability_block
+            margin: 0 20px 0 20px
+    .mobileRow_2
+        padding: 0 20px 0 20px
+        margin-top: 20px
+        .mobileRow_feedback_block
+            margin: 0 20px 0 20px
+
+    .start
+        .start_item
+            .start_round
+                height: 110px
+
+    .requirement
+    
+        .conditions_auto_header
+            padding-left: 5px
+        .conditions_company_header
+            padding-left: 60px
+    footer
+        .header_footer::before
+            left: 300px
+        .social_icons
+            left: 125px
+            .social_icon
+                margin-right: 20px
+        .app_icons_img
+            margin-right: 5px
+
+
+@media  ( max-width: 991px )
+    header
+        nav
+            height: 44px
+            padding: 14px 60px 
+
+            .menu
+                padding-left: 0
+                &_item
+                    font-size: 12px
+                    padding-right: 15px
+        .subheader
+            top: 44px
+            &_btn_c
+                .subheader_btn
+                    position: absolute
+                    right: 5px
+                    top: 17px
+                    margin-left: 0
+                    margin-top: 0
+                    margin: 0
+            .under_img
+                position: absolute
+                top: 35px  
+
+    .start
+        .start_item
+            .start_round
+                height: 80px
+
+    .mobile_blocks 
+        .mobileRow_1
+            flex-wrap: wrap
+            .mobileRow_registration_block
+                margin-left: 165px
+            .mobileRow_reliability_block
+                margin-left: 165px
+                margin-top: 20px
+            .mobileRow_pricing_block
+                margin-left: 165px
+                margin-top: 20px
+        .mobileRow_2
+            flex-wrap: wrap
+            .mobileRow_cashless_block
+                margin-left: 165px
+            .mobileRow_feedback_block
+                margin-right: 0
+                margin-left: 165px
+                margin-top: 20px
+            .mobileRow_cost_sharing_block
+                margin-left: 165px
+                margin-top: 20px
+    
+    .choose
+        .access
+            &_ub
+                margin-top: 30px
+                font-size: 37px
+            &_u
+                font-size: 18px
+    .requirement 
+        
+        .conditions_auto_header
+            padding-left: 0px
+            font-size: 20px
+            font-size: 19px
+        .conditions_company_header
+            padding: 0
+            margin-top: 35px
+            font-size: 19px
+        .conditionsCompany_list
+            padding: 0
+        .req_list_header
+            font-size: 20px
+            padding-left: 15px
+        .documents_list_header
+            font-size: 20px
+            padding-left: 80px
+    footer 
+        .header_footer
+            &::before
+                left: 180px
+        .social_icons
+            display: grid
+            top: 30px
+            left: 60px
+        .app_icons
+            display: grid
+            top: 30px
+            right: 2px
+
+@media ( max-width: 767px )
+    .menu
+        position: fixed
+        flex-direction: column
+        background-color: rgba(0, 0, 0, 0.8 )
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100%
+        padding: 20px 15px
+        justify-content: center
+        align-items: center
+        line-height: 50px
+        transition: 0.5s all
+        .menu_item
+            padding-right: 0
+            border: none 
+        .menu_link 
+            font-size: 17px
+        &_active
+            left: 0
+            transition: 0.5s all
+    header 
+        .hamburger 
+            display: block 
+            position: absolute
+            right: 5px
+            top: 20px 
+            transform: translateY(-45%)
+            height: 9px
+            width: 20px
+            span 
+                display: block
+                height: 1px
+                width: 100%
+                background-color: #fff
+                margin-bottom: 3px
+                transition: 0.5s all 
+            &_active
+                span
+                    margin-bottom: 0
+                    &:nth-child(1)
+                        transform: rotate(-45deg)
+                    &:nth-child(2)
+                        display: none
+                    &:nth-child(3)
+                        transform: rotate(45deg)
+        
+        .subheader_btn_c
+            .subheader_btn
+                width: 150px
+                right: 20px
+        .subheader
+            .call_us
+                position: absolute
+                right: 190px
+            .subheader_logo
+                font-size: 22px
+                &::before
+                    top: -3px
+                    left: -40px
+            .under_img
+                font-size: 10px
+
+    .promo
+        .promo_header
+            font-size: 53px
+        .promo_subheader
+            font-size: 23px
+        .promo_dscpr
+            font-size: 15px
+        .promo_btn
+            width: 210px
+    
+    .start
+        .start_subheader
+            font-size: 33px
+        .start_item
+            .start_round
+                height: 110px
+    
+    .mobile
+        .mobile_subheader
+            font-size: 30px
+        .mobile_blocks 
+            .mobileRow_1 
+                font-size: 21px
+                .mobileRow_registration_block
+                    width: 300px
+                    height: 260px
+                    margin-left: 90px
+                .mobileRow_reliability_block
+                    width: 300px
+                    height: 260px
+                    margin-left: 90px
+                .mobileRow_pricing_block
+                    width: 300px
+                    height: 260px
+                    margin-left: 90px
+            .mobileRow_2 
+                font-size: 21px
+                .mobileRow_cashless_block
+                    width: 300px
+                    height: 260px
+                    margin-left: 90px
+                .mobileRow_feedback_block
+                    width: 300px
+                    height: 260px
+                    margin-left: 90px
+                .mobileRow_cost_sharing_block
+                    width: 300px
+                    height: 260px
+                    margin-left: 90px
+    
+    .choose
+        .access_ub
+            margin-top: 80px
+            font-size: 34px
+        .access_u
+            font-size: 17px
+    
+    .requirement 
+        position: relative
+
+        .conditions_auto_header
+            margin-top: 20px
+            margin-left: 45px
+            padding: 0
+        .conditions_company_header
+            margin-top: 20px
+            margin-left: 50px
+            padding: 0
+
+        .req_list_header
+            margin-top: 20px
+            margin-left: 40px
+            padding: 0
+        .documents_list_header
+            margin-top: 20px
+            margin-left: 40px
+            padding: 0
+        .conditionsAuto_list
+            margin-top: 15px
+            margin-left: 65px
+        .conditionsCompany_list
+            margin-top: 20px
+            padding-left: 105px
+        .req_list
+            margin-right: 10px
+            padding-right: 0
+            padding-left: 110px
+            width: 440px
+        .documents_list
+            width: 260px
+            padding: 0
+            margin-left: 110px
+        
+    footer 
+        .header_footer
+            &::before
+                left: 90px
+
+@media ( max-width: 576px )
+    .menu
+        position: fixed
+        flex-direction: column
+        background-color: rgba(0, 0, 0, 0.8 )
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100%
+        padding: 20px 15px
+        justify-content: center
+        align-items: center
+        line-height: 50px
+        transition: 0.5s all
+        .menu_item
+            padding-right: 0
+            border: none 
+        .menu_link 
+            font-size: 17px
+        &_active
+            left: 0
+            transition: 0.5s all
+    header    
+        .hamburger 
+            display: block 
+            position: absolute
+            right: 15px
+            top: 23px 
+            transform: translateY(-45%)
+            height: 9px
+            width: 20px
+            span 
+                display: block
+                height: 1px
+                width: 100%
+                background-color: #fff
+                margin-bottom: 3px
+                transition: 0.5s all 
+            &_active
+                span
+                    margin-bottom: 0
+                    &:nth-child(1)
+                        transform: rotate(-45deg)
+                    &:nth-child(2)
+                        display: none
+                    &:nth-child(3)
+                        transform: rotate(45deg)
+        .subheader 
+            .subheader_logo
+                font-size: 18px
+                &::before
+                    width: 25px
+                    height: 25px
+                    left: -27px
+            .number
+                font-size: 20px
+                display: none
+            .under_img 
+                display: none 
+            .top_number
+                display: none
+            .number_active
+                display: block
+                position: absolute
+                right: 35px
+            .subheader_logo
+                font-size: 18px
+                position: absolute
+                margin-left: 20px
+                top: 20px  
+        .subheader_btn_c
+            .subheader_btn
+                width: 160px
+                height: 40px
+                top: 35px
+                right: 20px    
+
+                        
